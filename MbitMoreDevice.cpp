@@ -250,7 +250,7 @@ void MbitMoreDevice::onCommandReceived(uint8_t *data, size_t length) {
       // value is read as uint16_t little-endian.
       uint16_t value;
       memcpy(&value, &(data[2]), 2);
-      setAnalogValue(pinIndex, value);
+      //setAnalogValue(pinIndex, value);
       //****
       setDigitalValue(pinIndex, data[2]);
     } else if (pinCommand == MbitMorePinCommand::SET_SERVO) {
