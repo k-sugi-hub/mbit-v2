@@ -197,7 +197,7 @@ void MbitMoreDevice::onBLEConnected(MicroBitEvent _e) {
 #endif // MICROBIT_CODAL
   initializeConfig();
   uBit.display.stopAnimation(); // To stop display friendly name.
-  uBit.display.print("M");
+  uBit.display.print("P");
 }
 
 /**
